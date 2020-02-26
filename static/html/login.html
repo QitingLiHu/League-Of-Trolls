@@ -1,7 +1,9 @@
-<div class=logo>
+<div class="login">
+<div class="row">
+<div class="col-lg-4 col-lg-offset-4">
 	<img src="/static/img/lol-logo-v2.png" width="400" alt="League of Legends Logo">
 </div>
-<div class=login ng-controller="loginCtrl">
+<div class="col-lg-4 col-lg-offset-4" ng-controller="loginCtrl">
 	<form action="/" id="myLogin">
 		Nombre de trolleador: <input type="text" id="username" ng-model="username"><br>
 		Contraseña: <input type="password" id="password" ng-model="password"><br>
@@ -9,4 +11,7 @@
 			<button type="button" ng-click="submit()">Iniciar sesión</button>
 		</div>
 	</form>
+</div>
+
+</div>
 </div>
