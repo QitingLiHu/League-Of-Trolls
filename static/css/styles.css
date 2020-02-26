@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Simonetta&display=swap');
+body{
+	background: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg")no-repeat center center fixed;
 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .wrapper{
 	display: flex;
@@ -38,20 +45,33 @@
 }
 
 .login{
-	width: 400px;
+	text-align:  center;
+	width: 300px;
 	height: 200px;
 	background-color: black;
+	padding: 45px;
+	border-radius: 10px;
+	border:1px solid #dbb15d;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 
 .logo{
 	text-align: center;
 	position: relative;
-	top: 40px;
-
 }
 
-.loginbutton{
+.login .loginelement{
 	text-align: center;
-	padding: 20px;
+}
 
+.loginpage{
+	text-align: center;
+}
+
+.loginbutton button{
+	background-color: #dbb15d; /* Green */
+  	border: none;
 }
