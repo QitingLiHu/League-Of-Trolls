@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Simonetta&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Simonetta', ; 
+}
+
+body{
+	background: #000000;
+}
+
+.wrapper{
+	display: flex;
+	position: relative;
+	}
+
+.wrapper .sidebar{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: #154360;
+	padding: 0px 0;
+}
+
+.wrapper .sidebar img{
+	width: 200px;
+}
+
+.wrapper .sidebar ul li{
+	padding: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(225,225,225,0.05);
+}
+
+.wrapper .sidebar ul li a{
+	color: #D4E6F1;
+	display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+	width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+	background: #5499C7;
+}
+
+.login{
+	text-align: center;
+	width: 200px;
+	height: 150px;
+	position: relative;
+	background: #34495E;
+	padding: 10px;
+	border-radius: 10px;
+	position: relative;
+  	top: 80px;
+  	left: 50%;
+  	transform: translate(-50%, 0px);
+}
+
+.logo{
+	text-align: center;
+	position: relative;
+	top: 40px;
+
+}
+
+.loginbutton{
+	text-align: center;
+	padding: 20px;
+
+}
