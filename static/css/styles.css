@@ -46,10 +46,10 @@ body{
 
 .login{
 	text-align:  center;
-	width: 300px;
-	height: 200px;
+	width: 270;
+	height: 170px;
 	background-color: black;
-	padding: 45px;
+	padding: 30px;
 	border-radius: 10px;
 	border:1px solid #dbb15d;
 	position: absolute;
@@ -63,15 +63,17 @@ body{
 	position: relative;
 }
 
-.login .loginelement{
+.loginpage{
 	text-align: center;
 }
 
-.loginpage{
-	text-align: center;
+.login input{
+	border: 1px solid #dbb15d;
+	border-radius: 10px;
 }
 
 .loginbutton button{
 	background-color: #dbb15d; /* Green */
   	border: none;
+  	border-radius: 10px;
 }
