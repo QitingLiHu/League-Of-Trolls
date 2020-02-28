@@ -1,16 +1,29 @@
-	<div class="loginpage">
-	<img src="/static/img/lol-logo-v2.png" width="400" alt="League of Legends Logo">
-<div class="login" ng-controller="loginCtrl">
-		<div class=loginvalue>
-		<input type="text" id="username" ng-model="username" placeholder='Nombre de trolleador'><br>
-	</div>
-		<br>
-		<div class=loginvalue>
-		<input type="password" id="password" ng-model="password" placeholder='Contraseña'><br>
-	</div>
-	<br>
-		<div class=loginbutton>
-			<button type="button" ng-click="submit()">Iniciar sesión</button>
-		</div>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-md-4 col-sm-4 col-xs12"> </div>
+      <div class="col-md-4 col-sm-4 col-xs12">
+        <div class="login-image">
+          <img src="/static/img/lol-logo-v2.png" width="400" alt="League of Legends Logo">
+
+        </div>
+        
+</div>
+  <div class="col-md-4 col-sm-4 col-xs12"> </div>
+  </div>
+<div class="row">
+    <div class="col-md-4 col-sm-4 col-xs12"> </div>
+      <div class="col-md-4 col-sm-4 col-xs12"> 
+<form class="form-container" ng-controller="loginCtrl">
+  <div class="form-group">
+    <input type="text" class="form-control" id="username" ng-model="username" placeholder="Nombre de trolleador">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" id="password" ng-model="password" placeholder="Contraseña">
+  </div>
+  <button type="submit" class="btn btn-primary" ng-click="submit()">Iniciar sesión</button>
+</form>
+</div>
+
+  <div class="col-md-4 col-sm-4 col-xs12"> </div>
 </div>
 </div>

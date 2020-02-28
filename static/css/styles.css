@@ -31,6 +31,7 @@ body{
 	border-top: 1px solid rgba(225,225,225,0.05);
 }
 
+
 .wrapper .sidebar ul li a{
 	color: #D4E6F1;
 	display: block;
@@ -44,36 +45,24 @@ body{
 	background: #5499C7;
 }
 
-.login{
-	text-align:  center;
-	width: 270;
-	height: 170px;
-	background-color: black;
-	padding: 30px;
-	border-radius: 10px;
-	border:1px solid #dbb15d;
-	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-}
-
-.logo{
+.form-container{
 	text-align: center;
-	position: relative;
-}
-
-.loginpage{
-	text-align: center;
-}
-
-.login input{
-	border: 1px solid #dbb15d;
+	border: 3px solid #C89C5B;
 	border-radius: 10px;
+	padding: 50px 100px;
+	margin-top: 5vh;
 }
 
-.loginbutton button{
-	background-color: #dbb15d; /* Green */
-  	border: none;
-  	border-radius: 10px;
+
+.form-container button{
+	background-color: #C89C5B;
+}
+
+.login-image{
+	margin-top: 10vh;
+}
+
+.login-image img{
+    margin: auto;    
+    display: block;
 }
